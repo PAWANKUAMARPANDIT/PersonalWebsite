@@ -18,14 +18,14 @@ export const projectsData: Project[] = [
   {
     title: 'Nextjs-project',
     description: 'Next.js include user authenticate and verification using nextAuth and tech stack is next.js,express.js and mongodb and googleId and githubId for next auth.',
-    techStack: ['Next.js', 'Express.js', 'MongoDB', 'NextAuth'],
+    techStack: ['Next.js', 'Express.js', 'MongoDB'],
     github: 'https://github.com/PAWANKUAMARPANDIT/Nextjs-project',
     live: 'https://github.com/PAWANKUAMARPANDIT/Nextjs-project'
   },
   {
     title: 'Youtube-backend',
     description: 'A complete video hosting website similar to youtube with all the features like login, signup, upload video, like, dislike, comment, reply, subscribe, unsubscribe, and many more.',
-    techStack: ['Node.js', 'Express.js', 'MongoDB', 'JWT', 'Bcrypt'],
+    techStack: ['Node.js', 'Express.js', 'MongoDB'],
     github: 'https://github.com/PAWANKUAMARPANDIT/Backend-Assignment',
     live: 'https://github.com/PAWANKUAMARPANDIT/Backend-Assignment'
   }

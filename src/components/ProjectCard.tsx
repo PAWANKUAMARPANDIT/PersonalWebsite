@@ -21,7 +21,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           </span>
         ))}
       </div>
-      <div className="flex flex-col sm:flex-row gap-2 sm:gap-4">
+      <div className="flex gap-4 items-center justify-between sm:flex-row flex-row sm:justify-start">
         <a
           href={project.github}
           target="_blank"
@@ -29,7 +29,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           className="flex items-center gap-1 text-gray-600 hover:text-blue-600"
         >
           <Github size={18} />
-          <span className="hidden sm:inline">Code</span> {/* Hide "Code" text on small screens */}
+          <span>Code</span>
         </a>
         <a
           href={project.live}
@@ -38,7 +38,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           className="flex items-center gap-1 text-gray-600 hover:text-blue-600"
         >
           <ExternalLink size={18} />
-          <span className="hidden sm:inline">Live Demo</span> {/* Hide "Live Demo" text on small screens */}
+          <span>Live Demo</span>
         </a>
       </div>
     </div>

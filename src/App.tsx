@@ -12,7 +12,7 @@ function App() {
         <section id="home" className="h-screen flex items-center justify-center">
           <div className="text-center">
             <h1 className="text-5xl font-bold mb-4 text-gray-800">Pawan Kuamar Pandit</h1>
-            <p className="text-xl text-gray-600">Full Stack Developer</p>
+            <p className="text-xl text-gray-600 mb-4">Full Stack Developer</p>
           </div>
         </section>
         <About />

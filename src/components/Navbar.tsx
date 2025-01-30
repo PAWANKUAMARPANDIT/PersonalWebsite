@@ -8,17 +8,6 @@ const Navbar = () => {
         <div className="flex flex-col md:flex-row justify-between h-auto md:h-16 relative">
           <div className="flex items-center justify-between w-full md:w-auto">
             <span className="text-xl font-bold text-gray-800">Portfolio</span>
-            {/* Resume button for small screens */}
-            <div className="md:hidden">
-              <a
-                href="/resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-all duration-300 inline-block"
-              >
-                Resume
-              </a>
-            </div>
           </div>
           {/* Navbar for medium and larger screens */}
           <div className="hidden md:flex md:items-center md:space-x-8 w-full md:w-auto mt-4 md:mt-0">
